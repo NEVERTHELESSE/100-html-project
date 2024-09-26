@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #252525;
+  height: 100vh;
+  color: white;
+  padding: 1rem 3rem;
+  background: no-repeat center url(/wall6.jpg);
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  color: gold;
+  div {
+    display: flex;
+    color: white;
+    width: 40rem;
+    justify-content: space-around;
+    align-items: center;
+    button {
+      border-radius: 1rem;
+      background: gold;
+      color: white;
+      padding: 2px 2rem;
+      font-size: 2rem;
+    }
+  }
+}
+
+section {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  div {
+    width: 70%;
+  }
+  h2 {
+    font-size: 8rem;
+    margin-top: -5rem;
+    text-transform: uppercase;
+    background: url(wall2.jpg);
+    background-size: contain;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: all ease 0.4s;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  p {
+    font-size: 2rem;
+    color: #ffd900;
+    margin-top: 1rem;
+  }
+  img {
+    width: 30rem;
+    margin-top: -6rem;
+    margin-right: 4rem;
+  }
+}
